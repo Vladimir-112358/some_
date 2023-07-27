@@ -1,0 +1,152 @@
+.wrapper{
+    width: 1440px;
+    height: 368px;
+    background-color: #1B1742;
+}
+
+.container{
+    display: flex;
+    width: 1440px;
+    height: 299px;
+    background-color: #1B1742;
+}
+
+.content{
+    display: flex;
+    margin: 30px 247px 78px 9px;
+    width: 820px;
+    height: 260px;
+
+}
+
+.logo{
+    margin: 30px 89px 284px 73px;
+    width: 211px;
+    height: 54px;
+    background-color: #1B1742;
+}
+
+.about{
+    margin: 15px 21px 8px 6px;
+    width: 180px;
+    height: 254px;
+}
+
+.competencies{
+    margin: 15px 21px 8px 0px;
+    width: 180px;
+    height: 254px;
+}
+
+.projects{
+    margin: 15px 21px 8px 0px;
+    width: 180px;
+    height: 252px;
+}
+
+.cooperation{
+    margin: 15px 21px 8px 0px;
+    width: 180px;
+    height: 252px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #ADADAD;
+}
+
+.about_header{
+    margin-left: 39px;
+    margin-bottom: 8px;
+    color: #67D5DC;
+}
+
+.competencies_header{
+    margin-left: 39px;
+    margin-bottom: 8px;
+    color: #67D5DC;
+}
+.projects_header{
+    margin-left: 39px;
+    margin-bottom: 8px;
+    color: #67D5DC;
+}
+
+.cooperation_header{
+    margin-left: 39px;
+    margin-bottom: 8px;
+    color: #67D5DC;
+}
+
+.line_container{
+    height: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 1440px;
+    background-color: #1B1742;
+}
+
+.line{
+    margin-left: 120px;
+    margin-top: 7px;
+    position: absolute;
+    width: 1196px;
+    height: 1px;
+    background-color: aqua;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1323px;
+    height: 23px;
+    padding-left: 59px;
+    padding-right: 58px;
+    background-color: #1B1742;
+}
+
+
+.icons{
+    display: flex;
+    width: 76px;
+    height: 16px;
+    margin-top: 7px;
+    margin-right: 92px;
+
+}
+
+.mark_label{
+    width: 183px;
+    height: 18px;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.instagram{
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.telegram{
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.youtube{
+    width: 14px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.github{
+    width: 16px;
+    height: 15px;
+    margin-right: 81px;
+}
