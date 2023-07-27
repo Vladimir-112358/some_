@@ -1,14 +1,14 @@
 .wrapper{
     width: 1440px;
     height: 368px;
-    background-color: #1B1742;
+    background-color: #291e3e;
 }
 
 .container{
     display: flex;
     width: 1440px;
     height: 299px;
-    background-color: #1B1742;
+    background-color: #291e3e;
 }
 
 .content{
@@ -23,7 +23,7 @@
     margin: 30px 89px 284px 73px;
     width: 211px;
     height: 54px;
-    background-color: #1B1742;
+    background-color: #291e3e;
 }
 
 .about{
@@ -88,7 +88,7 @@ a{
     margin-top: 7px;
     margin-bottom: 7px;
     width: 1440px;
-    background-color: #1B1742;
+    background-color: #291e3e;
 }
 
 .line{
@@ -107,7 +107,7 @@ a{
     height: 23px;
     padding-left: 59px;
     padding-right: 58px;
-    background-color: #1B1742;
+    background-color: #291e3e;
 }
 
 
