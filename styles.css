@@ -1,15 +1,15 @@
 .wrapper{
     width: 1600px;
     height: 368px;
-    background-color: #291e3e;
+    background-color: #291b35;
 }
 
 .container{
     display: flex;
     width: 1440px;
     height: 299px;
-    background-color: #291e3e;
-    margin-left: 120px;
+    background-color: #291b35;
+    margin-left: 155px;
 }
 
 .content{
@@ -24,7 +24,7 @@
     margin: 30px 89px 284px 73px;
     width: 211px;
     height: 54px;
-    background-color: #291e3e;
+    background-color: #291b35;
 }
 
 .about{
@@ -89,11 +89,11 @@ a{
     margin-top: 7px;
     margin-bottom: 7px;
     width: 1440px;
-    background-color: #291e3e;
+    background-color: #291b35;
 }
 
 .line{
-    margin-left: 155px;
+    margin-left: 190px;
     margin-top: 7px;
     position: absolute;
     width: 1196px;
@@ -106,9 +106,9 @@ a{
     justify-content: space-between;
     width: 1323px;
     height: 23px;
-    padding-left: 87px;
+    padding-left: 125px;
     padding-right: 58px;
-    background-color: #291e3e;
+    background-color: #291b35;
 }
 
 
