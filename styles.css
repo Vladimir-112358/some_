@@ -1,66 +1,53 @@
 .wrapper{
-    width: 1600px;
-    height: 368px;
+    width: auto;
+    height: auto;
     background-color: #2B1D37;
 }
 
 .container{
     display: flex;
-    width: 1600px;
-    height: 299px;
+    width: auto;
+    margin: 0 auto;
     background-color: #2B1D37;
 }
 
 .content{
     display: flex;
     justify-content: space-between;
-    margin: 30px 210px 78px 9px;
-    width: 1400px;
-    height: 260px;
-
+    margin: 30px 50px 30px 0px;
+    width: 100%;
 }
 
 .logo{
-    margin: 30px 89px 284px 73px;
-    width: 211px;
-    height: 54px;
+    padding: 30px 0px 100px 73px;
+    width: 100%;
     background-color: #2B1D37;
 }
 
-.about{
+.about,
+.competencies,
+.projects,
+.cooperation {
     margin: 15px 21px 8px 0px;
-    width: 220px;
-    height: 254px;
+    width: 25%;
     font-size: 18px;
-}
-
-.competencies{
-    margin: 15px 40px 8px 0px;
-    width: 220px;
-    height: 254px;
-    font-size: 18px;
+    height: auto;
 }
 
 .projects{
     margin: 15px 21px 8px 0px;
-    width: 240px;
-    height: 252px;
+    width: 25%;
     font-size: 18px;
+    height: auto;
 }
 
-.projects li{
-    width: 230px;
-}
 
-.competencies li{
-    width: 230px;
-}
 
 .cooperation{
     margin: 15px 21px 8px 0px;
-    width: 220px;
-    height: 252px;
+    width: 25%;
     font-size: 18px;
+    height: auto;
 }
 
 li{
@@ -74,7 +61,8 @@ a{
 }
 
 .about_header{
-    margin-left: 39px;
+    margin-left: 35px;
+    width: 100%;
     margin-bottom: 8px;
     color: #67D5DC;
 }
@@ -100,15 +88,17 @@ a{
     height: 7px;
     margin-top: 7px;
     margin-bottom: 7px;
-    width: 1600px;
+    width: 100%;
     background-color: #2B1D37;
 }
 
 .line{
-    margin-left: 150px;
+    margin-left: 9%;
+    margin-right: 9%;
     margin-top: 7px;
-    position: absolute;
-    width: 1300px;
+    position: relative;
+    max-width: 1300px;
+    width: 82%;
     height: 1px;
     background-color: aqua;
 }
@@ -116,9 +106,10 @@ a{
 .footer{
     display: flex;
     justify-content: space-between;
-    width: 1600px;
+    width: auto;
     height: 23px;
     background-color: #2B1D37;
+    padding-bottom: 10px;
 }
 
 
@@ -160,4 +151,73 @@ a{
     width: 16px;
     height: 15px;
     margin-right: 81px;
+}
+
+@media (max-width: 1220px) {
+    li{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .about_header,
+    .competencies_header,
+    .cooperation_header,
+    .projects_header {
+        font-size: 13px;
+    }
+
+    .logo{
+        position: absolute;
+        margin: 0 auto;
+        padding: 30px 89px 10px 73px;
+        width: 100%;
+    }
+
+    .content{
+        height: auto;
+        margin: 100px 10px 5px 20px;
+        justify-content: space-between;
+    }
+
+    .mark {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 710px){
+    li{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .mark_label{
+        margin-left: 60px;
+    }
+    .icons{
+        margin-right: 60px;
+    }
+
+    .about_header,
+    .competencies_header,
+    .cooperation_header,
+    .projects_header {
+        font-size: 12px;
+    }
+
+    .logo{
+        margin-right: 10px;
+    }
+    .content{
+        height: auto;
+        margin: 20px 10px 5px 10px;
+        justify-content: space-between;
+    }
+
+    .about,
+    .competencies,
+    .projects,
+    .cooperation{
+        height: auto;
+        margin: 100px 0px 5px 10px;
+        justify-content: space-between;
+    }
 }
